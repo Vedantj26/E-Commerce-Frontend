@@ -1,0 +1,20 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #2E3192, #1BFFFF);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #2E3192, #1BFFFF)
+}
+
+body {
+    background-color: #eee;
+}
+
+@media(max-width: 770px) {
+    .border-sm-start-none {
+        border-left: none !important;
+    }
+}
